@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml>
+    <enum-type enumTypeId="PartyType" description="Party Type"/>
+    <enum-type enumTypeId="ContactMechType" description="Contact Mechanism Type"/>
+
+    <!-- PartyType -->
+    <enum enumId="PERSON" enumTypeId="PartyType" description="Person"/>
+    <enum enumId="PARTY_GROUP" enumTypeId="PartyType" description="Party Group"/>
+
+    <!-- ContactMechType -->
+    <enum enumId="EMAIL" enumTypeId="ContactMechType" description="Email"/>
+    <enum enumId="TELECOM_NUMBER" enumTypeId="ContactMechType" description="Phone"/>
+    <enum enumId="POSTAL_ADDRESS" enumTypeId="ContactMechType" description="Address"/>
+</entity-facade-xml>
