@@ -1,0 +1,19 @@
+<entity-facade-xml type="seed">
+
+    <!-- PERSON Party -->
+    <party.Party partyId="P1001" partyTypeEnumId="PERSON"/>
+    <party.Person partyId="P1001" firstName="Amit" lastName="Sharma" dateOfBirth="1999-05-10"/>
+
+    <!-- PARTY_GROUP -->
+    <party.Party partyId="G2001" partyTypeEnumId="PARTY_GROUP"/>
+    <party.PartyGroup partyId="G2001" groupName="TechNova Pvt Ltd" description="IT Services Company"/>
+
+    <!-- Contact Mechanisms -->
+    <party.ContactMech contactMechId="CM01" contactMechTypeId="EMAIL" infoString="amit.sharma@test.com"/>
+    <party.ContactMech contactMechId="CM02" contactMechTypeId="TELECOM_NUMBER" infoString="+91-9876543210"/>
+
+    <!-- PartyContactMech -->
+    <party.PartyContactMech partyId="P1001" contactMechId="CM01" fromDate="2024-01-01T00:00:00"/>
+    <party.PartyContactMech partyId="P1001" contactMechId="CM02" fromDate="2024-01-01T00:00:00"/>
+
+</entity-facade-xml>
